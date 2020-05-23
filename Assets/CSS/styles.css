@@ -1,51 +1,58 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
 body{
     background-color: cornflowerblue;  
 }
-.navbar-custom{
+.navbar{
     background-color: darkblue;
-    border-bottom: solid gainsboro;
+    border-bottom: solid gainsboro; 
+    color: cornflowerblue
 }
-.navbar-toggler-icon{
-    background-color: gainsboro;
+#logo{
+    background-color: royalblue;
+    border: double;
 }
+
 .navbar-brand{
     color: cornflowerblue;
 }
-.nav-link{
-    color:cornflowerblue
+.active{
+    background-color:cornflowerblue;
 }
-.nav-item.active{
-    background-color:gainsboro;
+.nav-item{
+text-align: center;
+}
+
+.row{
+    border-style: double;
+}
+.card-title{
+    text-align: center;
+}
+#about-image {
+  float: left;
+  width: 200px;
+  margin: 0 20px 10px 0;
 }
 hr{
-    border-top: 3px double black
+    border-top: 3px double black;
+    width: 100%;
 }
-.container{
+.container-body{
     background-color: royalblue;
-    max-width: 765px;
     border-style: double;
 }
 .row{
     background-color:royalblue;
 }
-.col-md-3{
-    background-color:royalblue;
-}
-.col-md-9{
-    background-color: royalblue;
-}
-.responsive {
-    max-width: 100%;
-    height: auto;
-  }
-  .p{
-      word-wrap: break-word;
-  }
 footer{
     position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width:100%;
   background-color: darkblue;
   color: cornflowerblue;
   text-align: center;
