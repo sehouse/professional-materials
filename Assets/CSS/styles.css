@@ -8,11 +8,11 @@ body{
 }
 .navbar{
     background-color: darkblue;
-    border-bottom: solid gainsboro; 
-    color: cornflowerblue
+    border-bottom: solid gainsboro;
+
 }
 #logo{
-    background-color: royalblue;
+    background-color: cornflowerblue;
     border: double;
 }
 
@@ -20,10 +20,12 @@ body{
     color: cornflowerblue;
 }
 .active{
-    background-color:cornflowerblue;
+    color:gainsboro;
 }
 .nav-item{
 text-align: center;
+background-color: cornflowerblue;
+border: double;
 }
 
 .row{
