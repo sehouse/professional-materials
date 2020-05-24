@@ -93,3 +93,6 @@ section#border.block{
     background-color: royalblue;
     float: right;
 }
+section#border.row{
+    text-align: center;
+}
