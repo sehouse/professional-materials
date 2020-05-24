@@ -1,6 +1,5 @@
 html{
     position: relative;
-    min-height: 100%;
 }
 
 body{
@@ -31,10 +30,15 @@ border: double;
 .card-title{
     text-align: center;
 }
+
 #about-image {
   float: left;
-  width: 200px;
+  /* width: 200px; */
   margin: 0 20px 10px 0;
+}
+img {
+    max-width:100%;
+    height:auto;
 }
 hr{
     border-top: 3px double black;
@@ -67,4 +71,25 @@ footer{
   color: cornflowerblue;
   text-align: center;
   border-top: solid gainsboro;
+}
+
+section {
+  float: left;
+  width: 63%;
+}
+aside {
+  float: right;
+  width: 30%;
+}
+
+.links{
+    text-align: center;
+    
+}
+article#border.about{
+    background-color: royalblue;
+}
+section#border.block{
+    background-color: royalblue;
+    float: right;
 }
