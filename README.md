@@ -1,24 +1,26 @@
 # Professional Materials
 
-- Scott House's Professional Materials GitHub [https://github.com/sehouse/work-day-scheduler]
+- Scott House's Professional Materials GitHub [https://sehouse.github.io/professional-materials/]
 - Scott House's Professional Materials IO [https://sehouse.github.io/professional-materials/]
 
 ## Summary:
 
-- This homework combines HTML, JavaScript, and CSS files, plus Bootstrap and moment.js to create a functioning work day scheduler. In each hourly field, you are able to type in tasks for that hour and save them to the field. The tasks persist through local storage to prevent loss due to refreshing your browser, as long as you click the save button for the field. There is a clear function, so that the user might clear their inputs for use the next day. The scheduler also checks your current time, and adjusts the text fields to adjust to past, present, and future times.
+- This homework combines HTML and CSS files, plus Bootstrap to create a more polished website for my professional materials. There is an "about me" page, which includes a picture, short bio, and links to my Github, LinkedIn, and resume. There is a "portfolio" page, which includes pictures and links to my first project and two homework assignments. There is als a "contact" page. This assignment is a revised version of my previous responsive portfolio, with which I fixed some responsiveness problems and also some visual problems, including the navbar.
 
 ## Features:
 
-- Accurate current time and date.
-- Interactive text fields, in which the user can input daily work tasks.
-- Save buttons that save the text input into local storage, so that they are not lost if the screen refreshes.
-- A clear button, which clears the text fields and refreshes the document.
-- Dynamic text fields that adjust to current time compared to the time assigned to the text field.
+- "About Me" page featuring a bio and links to professional materials.
+- "Portfolio" page, featuring links to my first project and two homework assignments.
+- "Contact" page, featuring forms for information collection.
 
-<img src="https://github.com/sehouse/work-day-scheduler/blob/master/assets/scott-house-work-day-scheduler-top.jpg?raw=true"
-     alt="Scott House Work Day Scheduler Top"
+<img src="https://github.com/sehouse/professional-materials/blob/master/Assets/Images/scott-house-about-me.png?raw=true"
+     alt="Scott House About Me"
      style="float: center" />
 
-<img src="https://github.com/sehouse/work-day-scheduler/blob/master/assets/scott-house-work-day-scheduler-bottom.jpg?raw=true"
-     alt="Scott House Work Day Scheduler Bottom"
+<img src="https://github.com/sehouse/professional-materials/blob/master/Assets/Images/scott-house-portfolio.png?raw=true"
+     alt="Scott House Portfolio"
+     style="float: center" />
+
+<img src="https://github.com/sehouse/professional-materials/blob/master/Assets/Images/scott-house-contact.png?raw=true"
+     alt="Scott House Contact"
      style="float: center" />
